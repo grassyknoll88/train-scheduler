@@ -91,6 +91,6 @@ $("#addTrainBtn").on("click", function () {
 
 	return false;
 });
-//refreshes train data every minute
+
 
  });
