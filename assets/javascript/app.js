@@ -19,13 +19,13 @@ var database = firebase.database();
 $("#addTrainBtn").on("click", function () {
 	event.preventDefault();
 
-	var trainName = $("#trainNameInput").val().trim();
+	var name = $("#trainNameInput").val().trim();
 	var destination = $("#destinationInput").val().trim();
 	var firstTrain = $("#timeInput").val().trim();
 	var frequency = $("#frequencyInput").val().trim();
 
 	//makes sure that each input has a value
-	if (trainName == "") {
+	if (name == "") {
 		alert("Enter a train name.");
 		return false;
 	}
@@ -34,7 +34,7 @@ $("#addTrainBtn").on("click", function () {
 		return false;
 	}
 	if (firstTrain == "") {
-		alert("Enter a train time.");
+		alert("Enter a train departure time.");
 		return false;
 	}
 	if (frequency == "") {
@@ -46,9 +46,7 @@ $("#addTrainBtn").on("click", function () {
 		name: name,
 		destination: destination,
 		firstTrain: firstTrain,
-		frequency: frequency,
-		min: minUntilTrain,
-		nextArrival: nextArrival
+		frequency: frequency
 	});
 
 	
@@ -60,7 +58,7 @@ $("#addTrainBtn").on("click", function () {
 		var destination = snapshot.val().destination;
 		var firstTrain = snapshot.val().firstTrain;
 		var frequency = snapshot.val().frequency;
-		var min = snapshot.val().min;
+		var minUntilTrain = snapshot.val().minUntilTrain;
 		var nextArrival = snapshot.val().nextArrival;
 		var tr = $("<tr>");
 		$("tbody").append(tr);
