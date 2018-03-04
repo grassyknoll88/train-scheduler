@@ -1,7 +1,27 @@
 .jumbotron {
-    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Cinzel', serif;
+    opacity: .80;
+    font-weight: bold;
+
 }
 
-.container {
-    font-family: 'Hammersmith One', sans-serif; 
+body {
+    background: url(../images/Alaska_Railroad_train_to_Spencer_Glacier.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.table {
+    background-color: white;
+}
+
+
+
+.container {
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    opacity: .85;
+    margin-bottom: 45px;
+}
+
+
