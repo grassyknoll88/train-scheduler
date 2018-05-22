@@ -5,6 +5,7 @@
 Created at KU coding bootcamp. Firebase Application to accept input from user to create a train list that then generates a schedule that calulated arrival windows for the desired train. 
 
 ### Getting Started
+https://grassyknoll88.github.io/train-scheduler/
 
 
 
