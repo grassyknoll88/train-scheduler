@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# Train-Scheduler
 
-You can use the [editor on GitHub](https://github.com/grassyknoll88/train-scheduler/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Overview
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Created at KU coding bootcamp. Firebase Application to accept input from user to create a train list that then generates a schedule that calulated arrival windows for the desired train. 
 
-### Markdown
+### Getting Started
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+#### Technologies used
 
-- Bulleted
-- List
+Google Fonts
+jQuery
+Firebase
 
-1. Numbered
-2. List
+##### Requirements
 
-**Bold** and _Italic_ and `Code` text
+Make sure that your app suits this basic spec:
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+When adding trains, administrators should be able to submit the following:
+Train Name
+Destination 
+First Train Time -- in military time
+Frequency -- in minutes
+Code this app to calculate when the next train will arrive; this should be relative to the current time.
+Users from many different machines must be able to view same train times.
+Styling and theme are completely up to you. Get Creative!
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/grassyknoll88/train-scheduler/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
