@@ -8,6 +8,9 @@ Created at KU coding bootcamp. Firebase Application to accept input from user to
 https://grassyknoll88.github.io/train-scheduler/
 
 
+![image](https://user-images.githubusercontent.com/32990938/40374398-9938f93e-5dae-11e8-8d17-0c2920eb771e.png)
+
+
 
 #### Technologies used
 
